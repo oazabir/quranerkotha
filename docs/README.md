@@ -9,6 +9,7 @@
  - Ensure the pages are also coming as in the original site. e.g. /pdf /about /reference
  - Create github pages actions so that when a modified/added file is pushed to repo, the github pages site refreshes with latest content
  - map quranerkotha.com DNS to github pages
+ - Ensure sharing a page on twitter, linkedin, facebook renders correct preview
 
 
 # Getting started
@@ -20,6 +21,16 @@ Then run
 bundle install
 ```
 Installs all dependencies.
+
+```
+bundle exec jekyll build --watch
+```
+on another terminal
+```
+bundle exec jekyll serve
+```
+
+TO start a local webserver
 
 ## First time
 
