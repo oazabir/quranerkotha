@@ -1,4 +1,4 @@
-ROOT=docs
+ROOT=cleaned
 DOWNLOAD_FOLDER=quranerkotha.com
 rm -rf ${DOWNLOAD_FOLDER} || mkdir -p ${DOWNLOAD_FOLDER}
 # Reap latest content from website

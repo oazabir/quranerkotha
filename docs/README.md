@@ -1,10 +1,27 @@
- - Make the site look like quranerkotha.com as it appears in mobile view
- - The home page should render like https://quranerkotha.com/index/ when viewed in mobile view
- - generate a minimal css file using the styles in use when in mobile view mode
- - make the post links relative url and same as the original quranerkotha.com website. e.g. /al-naml for surah an-naml
- - make sure all images, script, links load from the same site
- - there should be no script
- - Facebook like button as seen on original website
- - On each post page, reference list isn't rendering correctly.
- - add a discus comment section
- - browse the whole site and find all missing pictures and correct them by downloading from original website
+# TODO
+ - Generate a home page that looks like quranerkotha.com/index in mobile view
+ - Make each post & page look like the oriignal site in mobile view. make a minimal css
+ - Nice header and footer
+ - Previous and Next article navigation bottom of each post, as in the original site
+ - Facebook like box at the end of each post as in the original site
+ - Google analytics as in the original site
+ - Discuss comment section at the end of each post
+ - Ensure the pages are also coming as in the original site. e.g. /pdf /about /reference
+ - Create github pages actions so that when a modified/added file is pushed to repo, the github pages site refreshes with latest content
+ - map quranerkotha.com DNS to github pages
+
+
+# Getting started
+
+Follow installation guide on https://jekyllrb.com/
+
+Then run
+```
+bundle install
+```
+Installs all dependencies.
+
+## First time
+
+Export a wordpress site into an wordpress.xml.
+Run import-wordpress.sh to generate _posts markdown files
