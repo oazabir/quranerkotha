@@ -282,7 +282,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 219)
   hpricot
-  jekyll-feed (~> 0.12)
   jekyll-import
   minima (~> 2.5)
   open_uri_redirections

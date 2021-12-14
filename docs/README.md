@@ -4,8 +4,9 @@
  - Nice header and footer
  - Previous and Next article navigation bottom of each post, as in the original site
  - Facebook like box at the end of each post as in the original site
+ - Make github actions to publish the site when there's a push repository
  - Google analytics as in the original site
- - Discuss comment section at the end of each post
+ - Discus comment section at the end of each post
  - Ensure the pages are also coming as in the original site. e.g. /pdf /about /reference
  - Create github pages actions so that when a modified/added file is pushed to repo, the github pages site refreshes with latest content
  - map quranerkotha.com DNS to github pages
