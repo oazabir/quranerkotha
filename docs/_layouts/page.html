@@ -57,13 +57,14 @@ layout: default
                     <article id="post-3495"
                         class="post-3495 post type-post status-publish format-standard has-post-thumbnail hentry category-481 category-641 tag-53 tag-51 tag-653 tag-654">
 
+                        {% if page.meta.easyindexSourceUrl %}
                         <div class="post-thumbnail">
                             <img width="600" height="398" src="{{ page.meta.easyindexSourceUrl }}"
                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
                                 loading="lazy"
                                 sizes="(max-width: 600px) 100vw, 600px">
                         </div><!-- .post-thumbnail -->
-
+                        {% endif %}
 
                         <header class="entry-header">
                             <h1 class="entry-title">{{ page.title | escape }}</h1>
