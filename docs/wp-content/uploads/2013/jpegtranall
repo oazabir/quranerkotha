@@ -1,0 +1,1 @@
+find . -name "*.jpg" -type f -exec jpegtran -copy none -optimize -verbose -outfile {} {} \;
